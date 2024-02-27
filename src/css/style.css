@@ -1,0 +1,75 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6;
+}
+/* ---------------------header-------------- */
+.logo {
+  text-decoration: none;
+}
+.logo-text {
+  font-weight: 700;
+  font-size: 30px;
+  color: #95e1d3;
+}
+.nav-link {
+  color: #95e1d3;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #f38181;
+}
+/* ----------------------------------main----------------- */
+.services-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333;
+}
+.service-title {
+  color: #333;
+}
+.service-text {
+  font-size: 15px;
+  line-height: 1.47;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333;
+}
+.team-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  /* text-align: center; */
+}
+.teammate-name {
+  /* text-align: center; */
+  color: #333;
+}
+.teammate-role {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  /* text-align: center; */
+}
+/* -------------------------footer----------------------------- */
+.footer-text {
+  /* text-align: center; */
+  color: #333;
+}
+.footer-info {
+  /* text-align: center; */
+  color: #f38181;
+}
+.subscribe-input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.subscribe-botton {
+  font-weight: 700;
+  color: #fff;
+  background-color: #95e1d3;
+}

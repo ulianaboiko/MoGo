@@ -4,74 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoGo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
     <!--Шапка сайту-->
-    <header>
+    <header class="header">
       <!-- Лого -->
-      <a href="#">
-        <h1>MoGo</h1>
+      <a href="#" class="logo">
+        <h1 class="logo-text">MoGo</h1>
       </a>
       <!-- Навігація -->
-      <nav>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICE</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">SERVICE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">WORK</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
         </ul>
       </nav>
     </header>
     <!--Основна частина-->
-    <main>
-      <section>
-        <h2>Amazing Services</h2>
-        <div>
-          <article>
-            <img src="./src/images/servises/icon-1.svg" alt="Clock" />
-            <h3>photography</h3>
-            <p>
+    <main class="main">
+      <section class="services">
+        <h2 class="services-title">Amazing Services</h2>
+        <div class="services-cards">
+          <article class="service">
+            <img
+              src="./src/images/servises/icon-1.svg"
+              alt="Clock"
+              class="service-foto"
+            />
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </article>
-          <article>
-            <img src="./src/images/servises/icon-2.svg" alt="Chart" />
-            <h3>photography</h3>
-            <p>
+
+          <article class="service">
+            <img
+              src="./src/images/servises/icon-2.svg"
+              alt="Chart"
+              class="service-foto"
+            />
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </article>
-          <article>
-            <img src="./src/images/servises/icon-3.svg" alt="Display" />
-            <h3>photography</h3>
-            <p>
+
+          <article class="service">
+            <img
+              src="./src/images/servises/icon-3.svg"
+              alt="Display"
+              class="service-foto"
+            />
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </article>
-          <article>
-            <img src="./src/images/servises/icon-4.svg" alt="Paper" />
-            <h3>photography</h3>
-            <p>
+
+          <article class="service">
+            <img
+              src="./src/images/servises/icon-4.svg"
+              alt="Paper"
+              class="service-foto"
+            />
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </article>
-          <article>
-            <img src="./src/images/servises/icon-5.svg" alt="Home" />
-            <h3>photography</h3>
-            <p>
+
+          <article class="service">
+            <img
+              src="./src/images/servises/icon-5.svg"
+              alt="Home"
+              class="service-foto"
+            />
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </article>
-          <article>
-            <img src="./src/images/servises/icon-6.svg" alt="Device" />
-            <h3>photography</h3>
-            <p>
+
+          <article class="service">
+            <img
+              src="./src/images/servises/icon-6.svg"
+              alt="Device"
+              class="service-foto"
+            />
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
@@ -79,42 +115,59 @@
         </div>
       </section>
 
-      <section>
-        <h2>Meet our team</h2>
-        <p>
+      <section class="team">
+        <h2 class="team-title">Meet our team</h2>
+        <p class="team-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <div>
-          <article>
-            <img src="./src/images/team/matthew.jpg" alt="Matthew Dix" />
-            <h3>Matthew Dix</h3>
-            <p>Graphic Design</p>
+        <div class="team-members">
+          <article class="teammate">
+            <img
+              src="./src/images/team/matthew.jpg"
+              alt="Matthew Dix"
+              class="teammate-foto"
+            />
+            <h3 class="teammate-name">Matthew Dix</h3>
+            <p class="teammate-role">Graphic Design</p>
           </article>
-          <article>
+
+          <article class="teammate">
             <img
               src="./src/images/team/christopher.jpg"
               alt="Christopher Campbell"
+              class="teammate-foto"
             />
-            <h3>Christopher Campbell</h3>
-            <p>Branding/UX design</p>
+            <h3 class="teammate-name">Christopher Campbell</h3>
+            <p class="teammate-role">Branding/UX design</p>
           </article>
-          <article>
-            <img src="./src/images/team/michael.jpg" alt="Michael Fertig " />
-            <h3>Michael Fertig</h3>
-            <p>Developer</p>
+
+          <article class="teammate">
+            <img
+              src="./src/images/team/michael.jpg"
+              alt="Michael Fertig "
+              class="teammate-foto"
+            />
+            <h3 class="teammate-name">Michael Fertig</h3>
+            <p class="teammate-role">Developer</p>
           </article>
         </div>
       </section>
     </main>
     <!-- Підвал сайту -->
-    <footer>
-      <p>© 2016 MoGo free PSD template by <span>Laaqiq</span></p>
-      <form action="#">
-        <input type="email" placeholder="Your Email..." />
-        <button>Subscribe</button>
+    <footer class="footer">
+      <p class="footer-text">
+        © 2016 MoGo free PSD template by <span class="footer-info">Laaqiq</span>
+      </p>
+      <form action="#" class="subscribe-form">
+        <input
+          type="email"
+          placeholder="Your Email..."
+          class="subscribe-input"
+        />
+        <button class="subscribe-botton">Subscribe</button>
       </form>
     </footer>
   </body>
