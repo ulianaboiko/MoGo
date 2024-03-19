@@ -4,9 +4,18 @@ body {
   font-size: 14px;
   color: #b6b6b6;
 }
+
+.container {
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ---------------------header-------------- */
-.logo {
-  text-decoration: none;
+.header {
+  padding-top: 17px;
+  padding-bottom: 80px;
 }
 .logo-text {
   font-weight: 700;
@@ -15,12 +24,14 @@ body {
 }
 .nav-link {
   color: #95e1d3;
-  text-decoration: none;
 }
 .nav-link:hover {
   color: #f38181;
 }
 /* ----------------------------------main----------------- */
+.services {
+  padding-bottom: 100px;
+}
 .services-title {
   font-weight: 700;
   font-size: 30px;
@@ -33,6 +44,9 @@ body {
   font-size: 15px;
   line-height: 1.47;
 }
+.team {
+  padding-bottom: 80px;
+}
 .team-title {
   font-weight: 700;
   font-size: 30px;
@@ -41,10 +55,10 @@ body {
 .team-text {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  /* text-align: center; */
+  text-align: center;
 }
 .teammate-name {
-  /* text-align: center; */
+  text-align: center;
   color: #333;
 }
 .teammate-role {
@@ -52,15 +66,19 @@ body {
   font-weight: 300;
   font-style: italic;
   font-size: 15px;
-  /* text-align: center; */
+  text-align: center;
 }
 /* -------------------------footer----------------------------- */
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .footer-text {
-  /* text-align: center; */
+  text-align: center;
   color: #333;
 }
 .footer-info {
-  /* text-align: center; */
+  text-align: center;
   color: #f38181;
 }
 .subscribe-input {
