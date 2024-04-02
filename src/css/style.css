@@ -17,10 +17,20 @@ body {
   padding-top: 17px;
   padding-bottom: 80px;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo-text {
   font-weight: 700;
   font-size: 30px;
   color: #95e1d3;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
 .nav-link {
   color: #95e1d3;
@@ -36,6 +46,22 @@ body {
   font-weight: 700;
   font-size: 30px;
   color: #333;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.services-cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+.service {
+  max-width: 330px;
+}
+.service-heading {
+  display: flex;
+  gap: 20px;
 }
 .service-title {
   color: #333;
@@ -43,7 +69,9 @@ body {
 .service-text {
   font-size: 15px;
   line-height: 1.47;
+  padding-left: 57px;
 }
+/* ---------------------------------TEAM---------------------------- */
 .team {
   padding-bottom: 80px;
 }
@@ -51,15 +79,26 @@ body {
   font-weight: 700;
   font-size: 30px;
   color: #333;
+  text-align: center;
+  margin-bottom: 45px;
 }
 .team-text {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
+  margin-bottom: 27px;
+}
+.team-members {
+  display: flex;
+  gap: 30px;
+}
+.teammate-foto {
+  margin-bottom: 30px;
 }
 .teammate-name {
   text-align: center;
   color: #333;
+  margin-bottom: 11px;
 }
 .teammate-role {
   font-family: "Roboto", sans-serif;
@@ -73,6 +112,12 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer-text {
   text-align: center;
   color: #333;
@@ -81,13 +126,18 @@ body {
   text-align: center;
   color: #f38181;
 }
+.subscribe-form {
+  display: flex;
+}
 .subscribe-input {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: italic;
+  padding: 12px 10px;
 }
 .subscribe-botton {
   font-weight: 700;
   color: #fff;
   background-color: #95e1d3;
+  padding: 12px 38px;
 }
