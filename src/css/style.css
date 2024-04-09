@@ -12,6 +12,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+img {
+  width: 100%;
+  display: block;
+}
 /* ---------------------header-------------- */
 .header {
   padding-top: 17px;
@@ -57,7 +61,7 @@ body {
   row-gap: 100px;
 }
 .service {
-  max-width: 330px;
+  flex-basis: calc((100% - 140px) / 3);
 }
 .service-heading {
   display: flex;
@@ -91,6 +95,9 @@ body {
 .team-members {
   display: flex;
   gap: 30px;
+}
+.teammate {
+  flex-basis: calc((100% - 60px) / 3);
 }
 .teammate-foto {
   margin-bottom: 30px;
