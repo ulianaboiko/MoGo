@@ -63,6 +63,11 @@ img {
 .service {
   flex-basis: calc((100% - 140px) / 3);
 }
+.service-foto {
+  height: 37px;
+  width: 37px;
+  fill: #95e1d3;
+}
 .service-heading {
   display: flex;
   gap: 20px;
