@@ -38,6 +38,23 @@ img {
 }
 .nav-link {
   color: #95e1d3;
+  position: relative;
+}
+.nav-link::after {
+  position: absolute;
+  content: "";
+  color: #f38181;
+  width: 96.15%;
+  height: 2px;
+  left: 1px;
+  bottom: -10px;
+  opacity: 0;
+  transform: scaleX(0) translateY(10px);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+.nav-link:hover::after {
+  transform: scaleX(1) translateY(0);
 }
 .nav-link:hover {
   color: #f38181;
@@ -63,7 +80,11 @@ img {
 .service {
   flex-basis: calc((100% - 140px) / 3);
 }
-.service-foto {
+.service:hover .service-photo {
+  transform: rotateY(1turn);
+}
+.service-photo {
+  transition: transform 1s ease;
   height: 37px;
   width: 37px;
   fill: #95e1d3;
