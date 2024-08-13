@@ -1,0 +1,49 @@
+.teammate {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.teammate-foto {
+  margin-bottom: 30px;
+  position: relative;
+}
+.teammate-foto::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.teammate:nth-child(1) > .teammate-foto::after {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(217, 90, 0, 0.545),
+    rgba(249, 225, 15, 0.524)
+  );
+}
+
+.teammate:nth-child(2) > .teammate-foto::after {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(243, 64, 32, 0.545),
+    rgba(163, 15, 249, 0.524)
+  );
+}
+.teammate:nth-child(3) > .teammate-foto::after {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(13, 163, 8, 0.545),
+    rgba(249, 70, 15, 0.524)
+  );
+}
+.teammate-name {
+  text-align: center;
+  color: #333;
+  margin-bottom: 11px;
+}
+.teammate-role {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+}

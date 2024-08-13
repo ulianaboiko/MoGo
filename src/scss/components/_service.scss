@@ -1,0 +1,24 @@
+.service {
+  flex-basis: calc((100% - 140px) / 3);
+}
+.service:hover .service-photo {
+  transform: rotateY(1turn);
+}
+.service-photo {
+  transition: transform 1s ease;
+  height: 37px;
+  width: 37px;
+  fill: #95e1d3;
+}
+.service-heading {
+  display: flex;
+  gap: 20px;
+}
+.service-title {
+  color: #333;
+}
+.service-text {
+  font-size: 15px;
+  line-height: 1.47;
+  padding-left: 57px;
+}

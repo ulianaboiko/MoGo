@@ -1,0 +1,20 @@
+.team {
+  padding-bottom: 80px;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.team-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.team-members {
+  display: flex;
+  gap: 30px;
+}

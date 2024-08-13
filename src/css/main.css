@@ -1,3 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -12,34 +46,29 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-img {
-  width: 100%;
-  display: block;
-}
-/* ---------------------header-------------- */
+
 .header {
   padding-top: 17px;
   padding-bottom: 80px;
 }
+
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.logo-text {
-  font-weight: 700;
-  font-size: 30px;
-  color: #95e1d3;
-}
+
 .nav-list {
   display: flex;
   align-items: center;
   gap: 55px;
 }
+
 .nav-link {
   color: #95e1d3;
   position: relative;
 }
+
 .nav-link::after {
   position: absolute;
   content: "";
@@ -53,16 +82,25 @@ img {
   transform-origin: left;
   transition: transform 0.5s;
 }
+
 .nav-link:hover::after {
   transform: scaleX(1) translateY(0);
 }
+
 .nav-link:hover {
   color: #f38181;
 }
-/* ----------------------------------main----------------- */
+
+.logo-text {
+  font-weight: 700;
+  font-size: 30px;
+  color: #95e1d3;
+}
+
 .services {
   padding-bottom: 100px;
 }
+
 .services-title {
   font-weight: 700;
   font-size: 30px;
@@ -70,6 +108,7 @@ img {
   text-align: center;
   margin-bottom: 65px;
 }
+
 .services-cards {
   display: flex;
   align-items: center;
@@ -77,34 +116,41 @@ img {
   justify-content: space-between;
   row-gap: 100px;
 }
+
 .service {
   flex-basis: calc((100% - 140px) / 3);
 }
+
 .service:hover .service-photo {
   transform: rotateY(1turn);
 }
+
 .service-photo {
   transition: transform 1s ease;
   height: 37px;
   width: 37px;
   fill: #95e1d3;
 }
+
 .service-heading {
   display: flex;
   gap: 20px;
 }
+
 .service-title {
   color: #333;
 }
+
 .service-text {
   font-size: 15px;
   line-height: 1.47;
   padding-left: 57px;
 }
-/* ---------------------------------TEAM---------------------------- */
+
 .team {
   padding-bottom: 80px;
 }
+
 .team-title {
   font-weight: 700;
   font-size: 30px;
@@ -112,23 +158,28 @@ img {
   text-align: center;
   margin-bottom: 45px;
 }
+
 .team-text {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
   margin-bottom: 27px;
 }
+
 .team-members {
   display: flex;
   gap: 30px;
 }
+
 .teammate {
   flex-basis: calc((100% - 60px) / 3);
 }
+
 .teammate-foto {
   margin-bottom: 30px;
   position: relative;
 }
+
 .teammate-foto::after {
   content: "";
   width: 100%;
@@ -137,33 +188,25 @@ img {
   top: 10px;
   left: 10px;
 }
+
 .teammate:nth-child(1) > .teammate-foto::after {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(217, 90, 0, 0.545),
-    rgba(249, 225, 15, 0.524)
-  );
+  background-image: linear-gradient(to right bottom, rgba(217, 90, 0, 0.545), rgba(249, 225, 15, 0.524));
 }
 
 .teammate:nth-child(2) > .teammate-foto::after {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(243, 64, 32, 0.545),
-    rgba(163, 15, 249, 0.524)
-  );
+  background-image: linear-gradient(to right bottom, rgba(243, 64, 32, 0.545), rgba(163, 15, 249, 0.524));
 }
+
 .teammate:nth-child(3) > .teammate-foto::after {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(13, 163, 8, 0.545),
-    rgba(249, 70, 15, 0.524)
-  );
+  background-image: linear-gradient(to right bottom, rgba(13, 163, 8, 0.545), rgba(249, 70, 15, 0.524));
 }
+
 .teammate-name {
   text-align: center;
   color: #333;
   margin-bottom: 11px;
 }
+
 .teammate-role {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -171,11 +214,12 @@ img {
   font-size: 15px;
   text-align: center;
 }
-/* -------------------------footer----------------------------- */
+
 .footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -186,19 +230,23 @@ img {
   text-align: center;
   color: #333;
 }
+
 .footer-info {
   text-align: center;
   color: #f38181;
 }
+
 .subscribe-form {
   display: flex;
 }
+
 .subscribe-input {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: italic;
   padding: 12px 10px;
 }
+
 .subscribe-botton {
   font-weight: 700;
   color: #fff;
