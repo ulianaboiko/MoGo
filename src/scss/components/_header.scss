@@ -35,3 +35,24 @@
 .nav-link:hover {
   color: #f38181;
 }
+.header-menu {
+  display: none;
+}
+@media (max-width: 1199px) {
+  .header {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .nav-list {
+    gap: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .nav-list {
+    display: none;
+  }
+  .header-menu {
+    display: block;
+  }
+}

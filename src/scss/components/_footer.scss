@@ -3,11 +3,12 @@
   padding-bottom: 10px;
 }
 .footer-container {
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #b6b6b6;
 }
-
 .footer-text {
   text-align: center;
   color: #333;
@@ -15,4 +16,10 @@
 .footer-info {
   text-align: center;
   color: #f38181;
+}
+@media (max-width: 767px) {
+  .footer-container {
+    flex-direction: column-reverse;
+    gap: 25px;
+  }
 }

@@ -1,11 +1,11 @@
 .teammate {
   flex-basis: calc((100% - 60px) / 3);
 }
-.teammate-foto {
+.teammete-photo {
   margin-bottom: 30px;
   position: relative;
 }
-.teammate-foto::after {
+.teammete-photo::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -13,7 +13,7 @@
   top: 10px;
   left: 10px;
 }
-.teammate:nth-child(1) > .teammate-foto::after {
+.teammete:nth-child(1) > .teammete-photo::after {
   background-image: linear-gradient(
     to right bottom,
     rgba(217, 90, 0, 0.545),
@@ -21,29 +21,38 @@
   );
 }
 
-.teammate:nth-child(2) > .teammate-foto::after {
+.teammete:nth-child(2) > .teammete-photo::after {
   background-image: linear-gradient(
     to right bottom,
     rgba(243, 64, 32, 0.545),
     rgba(163, 15, 249, 0.524)
   );
 }
-.teammate:nth-child(3) > .teammate-foto::after {
+.teammete:nth-child(3) > .teammete-photo::after {
   background-image: linear-gradient(
     to right bottom,
     rgba(13, 163, 8, 0.545),
     rgba(249, 70, 15, 0.524)
   );
 }
-.teammate-name {
+.teammete-name {
+  font-variant: all-small-caps;
   text-align: center;
-  color: #333;
   margin-bottom: 11px;
 }
-.teammate-role {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 15px;
+.teammete-role {
+  color: var(--colorTextSecondary);
   text-align: center;
+  font-family: var(--fontTextSecondary);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+@media (max-width: 575px) {
+  .teammete-name {
+    font-size: 2em;
+  }
+  .teammete-role {
+    font-size: 1.7em;
+  }
 }
